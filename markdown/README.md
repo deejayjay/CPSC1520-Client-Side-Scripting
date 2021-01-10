@@ -1,4 +1,4 @@
-# Main Repo ReadMe.md
+# Basic markdown writing and formatting tips
 __References:__
 [Github Docs](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax), [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
