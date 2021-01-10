@@ -55,13 +55,13 @@ To format code or text into its own distinct block, use ```triple backticks```.
 Check the following example:
 ```html
 <nav>
-        <ul>
-            <li>Menu 1</li>
-            <li>Menu 2</li>
-            <li>Menu 3</li>
-            <li>Menu 4</li>
-        </ul>
-    </nav>
+    <ul>
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+        <li>Menu 4</li>
+    </ul>
+</nav>
 ```
 
 ---
@@ -109,5 +109,3 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ```
 will be displayed as:  
 This site was built using [GitHub Pages](https://pages.github.com/).
-
-
