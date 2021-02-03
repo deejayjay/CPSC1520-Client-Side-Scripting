@@ -87,6 +87,56 @@ Some of the referece types are:
 
 `Note: Javascript is a dynamically typed language. This means, the same variable name can hold multiple types. We do not need to specify types.`
 
+### Template Literals (Template Strings)
+*Template literals*, aka *Template strings*, are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+
+`For Example:`
+```js
+let name = 'Deepak';
+console.log(`Welcome ${name}`);
+```
+Template literals are enclosed within backticks ( \` ). They can contain placeholders. These are indicated by the dollar sign and curly braces *`(${expression})`*.
+
+---
+<br>
+
+## Some Interesting Operators
+### `typeof` operator
+The `typeof` operator is a unary operator that returns a string indicating the type of the unevaluated operand.
+
+`Syntax:`
+```js
+typeof operand;
+
+//OR
+
+typeof(operand);
+```
+
+`For Example:`
+```js
+console.log(typeof(100)); // Returns the string "Number"
+```
+### Conditional (ternary) Operator
+The *conditional operator*, which is written with a question mark and a colon, is the only ternary operator in JavaScript. It is represented as a condition followed by a question mark `(?)`, then an expression to execute if the condition evaluates to `true`, followed by a colon `(:)`, and finally the expression to execute if the condition evaluates to `false`. This operator is often used as a shortcut for the `if` statement.
+
+`Syntax:`
+```js
+condition ? expressionIfTrue : expressionIfFalse;
+```
+
+`For Example:`
+```js
+console.log(true ? "Yay! True." : "Nay... False."); // Displays "Yay! True." to the console
+```
+
+### Short-circuiting of `||` and `&&` Logical Operators
+If the operands on both sides of the logical `||` or `&&` operators are of different type, these operators handle them in a peculiar way. They will convert the operand on the left-hand to *boolean* type in order to decide what to do. Depending on the operator and the result of this conversion, they will return either the operand on the left-hand side or the one on the right-hand side.
+
+> In case of the `||` operator, if the operand on the *left-hand side* of it can be converted to `true`, it will return the operand on the *left-hand side*. Otherwise, the operand on the *right-hand side* is returned.
+
+> The `&&` operator, on the other hand, returns the operand on the *left-hand side* if the operand on the *left-hand side* can be converted into `false`. Otherwise, it returns the operand on the *right-hand side*.
+
 ---
 <br>
 
